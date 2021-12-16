@@ -23,14 +23,25 @@ This project mainly focus on Image-Text Alignment.
 ## Environment Setup
 
 ```bash
-# Setup environment
+# Activate pipenv environment
+pipenv shell
 
-# Install PyTorch
-pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+# Setup environment
+pipenv install
 ```
 
 ## Data Preparation
 
+You should run data generation script first:
+
 ```bash
 python evaluation/run_gen_data.py
+```
+
+We have included the annotation data in `datasets/info/captions_train2014.json`, the above script will read annotation data and output image-text tuples and the binary classification labels.
+
+## Model Training
+
+```bash
+python evaluation/run_training.py
 ```
