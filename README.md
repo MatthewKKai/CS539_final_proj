@@ -6,15 +6,19 @@ This project mainly focus on Image-Text Alignment.
 ## Workflow
 
 1. Proposal: Intro/Related Work/Datasets/Proposal/Reference
+
 	Ruoxue: Intro/Related Work
 	Kai: Datasets/Proposal
 	others: review/edit
 	first-edit:10.10
+	
 2. Research paper Pre:
 	Slides - Yang
 	others: reading
+	
 3. Website:
 	Zihao Zhou
+	
 4. Code
 5. final_pre&paper
 
